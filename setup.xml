@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <causaraiz type="caracteristicas">
+		<areas>['BI', 'Financeiro', 'Fiscal', 'Comex', 'NovaFolha', 'Suprimentos', 'HR', 'HRWEB', 'Ponto']</areas>
+		<status>['Aguardando análise', 'Em análise', 'Em Desenvolvimento', 'Em homologação', 'Em produção']</status>
+		<budget>['Business', 'Outros']</budget>
+		<resp>['Ana Carolina Botelho', 'Bianca Oliveira', 'Bruna Mendes', 'Caio Castro', 'Erbertt Santos', 'Edson Freitas', 'Felipe Rodrigues', 'Ilma Oliveira', 'Joao Gabriel Silva', 'Lucinda Violante', 'Marcela Pelodan Santos', 'Sueli Resende', 'Suzy Nascimento', 'Rafael Araujo']</resp>
+	</causaraiz>
+	<causaraiz type="complexidade">
+		<esforco>[["Acima de 10HH (1 meses de 1 pessoa)","1"],["De 10HH até 30HH (2 meses de 1 pessoa)","3"],["Acima de 30HH","5"]]</esforco>
+		<difTec>[["Alta","5"],["Média","3"],["Baixa","1"]]</difTec>
+	</causaraiz>
+	<causaraiz type="criticidade">
+		<ativVital>[["Alta","5"],["Média","3"],["Baixa","1"]]</ativVital>
+		<impact>[["Alta","5"],["Média","3"],["Baixa","1"]]</impact>
+	</causaraiz>
+    <melhoria type="caracteristicas">
+		<areas>['BI', 'Financeiro', 'Fiscal', 'Comex', 'NovaFolha', 'Suprimentos', 'HR', 'HRWEB', 'Ponto']</areas>
+		<status>['Aguardando análise', 'Em análise', 'Em Desenvolvimento', 'Em homologação', 'Em produção']</status>
+		<budget>['Business', 'Outros']</budget>
+		<resp>['Ana Carolina Botelho', 'Bianca Oliveira', 'Bruna Mendes', 'Caio Castro', 'Erbertt Santos', 'Edson Freitas', 'Felipe Rodrigues', 'Ilma Oliveira', 'Joao Gabriel Silva', 'Lucinda Violante', 'Marcela Pelodan Santos', 'Sueli Resende', 'Suzy Nascimento', 'Rafael Araujo']</resp>
+	</melhoria>
+	<melhoria type="complexidade">
+		<esforco>[["Acima de 60HH (1 meses de 1 pessoa)","1"],["De 60HH até 120HH (2 meses de 1 pessoa)","3"],["Acima de 120HH","5"]]</esforco>
+		<conf>[["teste","0"],["Não há fornecedores","1"],["Alta confiabilidade","3"],["Baixa confiabilidade","5"]]</conf>
+		<hab>[["Não serão utilizados profissionais internos","1"],["Possuem as habilidades necessárias","3"],["Não possuem as habilidades necessárias","5"]]</hab>
+		<numProfs>[["Até 3 pessoas","1"],["De 3 até 8 pessoas","3"],["Acima de 8 pessoas","5"]]</numProfs>
+		<escop>[["Alta","5"],["Média","3"],["Baixa","1"]]</escop>
+		<comp>[["Partes interessadas são comprometidas","1"],["Partes interessadas apresentam comprometimento mediano","3"],["Partes interessadas não são comprometidas","5"]]</comp>
+		<dispTec>[["Alta","1"],["Média","3"],["Baixa","5"]]</dispTec>
+		<difTec>[["Alta","5"],["Média","3"],["Baixa","1"]]</difTec>
+		<impact>[["Alto","5"],["Médio","3"],["Baixo","1"]]</impact>
+	</melhoria>
+	<melhoria type="criticidade">
+		<ativVital>[["Não tem relação","1"],["Indiretamente relacionado","3"],["Diretamente relacionado","5"]]</ativVital>
+		<numArea>[["1 diretoria","1"],["2 até 3 diretorias","3"],["Acima de 3 diretorias","5"],["Abrangência global","7"]]</numArea>
+		<relMetas>[["Não está relacionado","1"],["Diretamente relacionado","5"]]</relMetas>
+		<roi>[["Negativo","1"],["0 a 15%","3"],["15 a 35%","5"],["Acima de 35%","7"]]</roi>
+		<mustDo>[["Não é obrigatório","1"],["É obrigatório","5"]]</mustDo>
+	</melhoria>
+	<projeto type="caracteristicas">
+		<areas>['BI', 'Financeiro', 'Fiscal', 'Comex', 'NovaFolha', 'Suprimentos', 'HR', 'HRWEB', 'Ponto']</areas>
+		<status>['Aguardando análise', 'Em análise', 'Em Desenvolvimento', 'Em homologação', 'Em produção']</status>
+		<budget>['Business', 'Outros']</budget>
+		<resp>['Ana Carolina Botelho', 'Bianca Oliveira', 'Bruna Mendes', 'Caio Castro', 'Erbertt Santos', 'Edson Freitas', 'Felipe Rodrigues', 'Ilma Oliveira', 'Joao Gabriel Silva', 'Lucinda Violante', 'Marcela Pelodan Santos', 'Sueli Resende', 'Suzy Nascimento', 'Rafael Araujo']</resp>
+	</projeto>
+	<projeto type="complexidade">
+		<esforco>[["De 160HH até 720HH (3 meses de 2 pessoas)","1"],["De 720HH até 2880HH (9 meses de 2 pessoas)","3"],["Acima de 2880HH","5"]]</esforco>
+		<conf>[["Não há fornecedores","1"],["Alta confiabilidade","3"],["Baixa confiabilidade","5"]]</conf>
+		<hab>[["Não serão utilizados profissionais internos","1"],["Possuem as habilidades necessárias","3"],["Não possuem as habilidades necessárias","5"]]</hab>
+		<numProfs>[["Até 3 pessoas","1"],["De 3 até 8 pessoas","3"],["Acima de 8 pessoas","5"]]</numProfs>
+		<escop>[["Alta","5"],["Média","3"],["Baixa","1"]]</escop>
+		<comp>[["Partes interessadas são comprometidas","1"],["Partes interessadas apresentam comprometimento mediano","3"],["Partes interessadas não são comprometidas","5"]]</comp>
+		<dispTec>[["Alta","1"],["Média","3"],["Baixa","5"]]</dispTec>
+		<difTec>[["Alta","5"],["Média","3"],["Baixa","1"]]</difTec>
+		<impact>[["Alto","5"],["Médio","3"],["Baixo","1"]]</impact>
+	</projeto>
+	<projeto type="criticidade">
+		<ativVital>[["Não tem relação","1"],["Indiretamente relacionado","3"],["Diretamente relacionado","5"]]</ativVital>
+		<numArea>[["1 diretoria","1"],["2 até 3 diretorias","3"],["Acima de 3 diretorias","5"],["Abrangência global","7"]]</numArea>
+		<relMetas>[["Não está relacionado","1"],["Diretamente relacionado","5"]]</relMetas>
+		<roi>[["Negativo","1"],["0 a 15%","3"],["15 a 35%","5"],["Acima de 35%","7"]]</roi>
+		<mustDo>[["Não é obrigatório","1"],["É obrigatório","5"]]</mustDo>
+	</projeto>
+</data>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<Carac type="Projeto">
+		<CausaRaiz>['Status','Budget','Nome','Solicitante','Gerência','Ticket','Sub Área','Analista Responsavel']</CausaRaiz>
+		<Melhoria>['Status','Budget','Nome','Solicitante','Gerência','Ticket','Sub Área','Analista Responsavel']</Melhoria>
+		<Projeto>['Status','Budget','Nome','Solicitante','Gerência','Ticket','Sub Área','Analista Responsavel']</Projeto>
+	</Carac>
+	<Carac type="Complexidade">
+		<CausaRaiz>['Esforço do Projeto','Dificuldade técnica do projeto']</CausaRaiz>
+		<Melhoria>['Esforço do Projeto','Confiabilidade nos Fornecedores','Habilidade interna dos profissionais','Número de profissionais técnicos envolvidos no projeto','Tendência de variação do escopo','Comprometimento das partes interessadas','Disponibilidade de recursos tecnológicos','Dificuldade técnica do projeto','Impacto no processo de negócio atual']</Melhoria>
+		<Projeto>['Esforço do Projeto','Confiabilidade nos Fornecedores','Habilidade interna dos profissionais','Número de profissionais técnicos envolvidos no projeto','Tendência de variação do escopo','Comprometimento das partes interessadas','Disponibilidade de recursos tecnológicos','Dificuldade técnica do projeto','Impacto no processo de negócio atual']</Projeto>
+	</Carac>
+	<Carac type="Criticidade">
+		<CausaRaiz>['Impacto no processo de negócio atual','Relacionado a alguma atividade de negócio vital','Justificativa']</CausaRaiz>
+		<Melhoria>['Relacionado a alguma atividade de negócio vital','Número de áreas negócio beneficiadas com o projeto','Habilidade interna dos profissionais','Relacionado as metas atuais da diretoria','ROI','Must Do','Justificativa']</Melhoria>
+		<Projeto>['Relacionado a alguma atividade de negócio vital','Número de áreas negócio beneficiadas com o projeto','Habilidade interna dos profissionais','Relacionado as metas atuais da diretoria','ROI','Must Do','Justificativa']</Projeto>
+	</Carac>
+	<Ids type="Projeto">
+		<CausaRaiz>['status','budget','nome','solicitante','gerencia','ticket','subarea','responsavel']</CausaRaiz>
+		<Melhoria>['status','budget','nome','solicitante','gerencia','ticket','subarea','responsavel']</Melhoria>
+		<Projeto>['status','budget','nome','solicitante','gerencia','ticket','subarea','responsavel']</Projeto>
+	</Ids>
+	<Ids type="Complexidade">
+		<CausaRaiz>['esforco','difTec']</CausaRaiz>
+		<Melhoria>['esforco', 'conf', 'hab', 'numProfs', 'escop', 'comp', 'dispTec', 'difTec', 'impact']</Melhoria>
+		<Projeto>['esforco', 'conf', 'hab', 'numProfs', 'escop', 'comp', 'dispTec', 'difTec', 'impact']</Projeto>
+	</Ids>
+	<Ids type="Criticidade">
+		<CausaRaiz>['impact','ativVital','just']</CausaRaiz>
+		<Melhoria>['ativVital', 'numArea', 'relMetas', 'roi', 'mustDo','just']</Melhoria>
+		<Projeto>['ativVital', 'numArea', 'relMetas', 'roi', 'mustDo','just']</Projeto>
+	</Ids>
+	<OpCore type="Projeto">
+		<CausaRaiz>'{"tipo":"Causa Raiz", "infos":"projeto", "area":["BI", "Financeiro","Fiscal","Comex","Nova Folha","Suprimentos","HR","HRWEB","Ponto"], "status":["Aguardando análise", "Em análise", "Em Desenvolvimento","Em homologação","Em produção"], "budget":["Business", "Outros"], "resp":["Ana Carolina Botelho", "Bianca Oliveira", "Bruna Mendes", "Caio Castro", "Erbertt Santos", "Edson Freitas", "Felipe Rodrigues", "Ilma Oliveira", "Joao Gabriel Silva", "Lucinda Violante", "Marcela Pelodan Santos", "Sueli Resende", "Suzy Nascimento", "Rafael Araujo"]}\r\n'</CausaRaiz>
+		<Melhoria>'{"tipo":"Melhoria", "infos":"projeto", "area":["BI", "Financeiro","Fiscal","Comex","Nova Folha","Suprimentos","HR","HRWEB","Ponto"], "status":["Aguardando análise", "Em análise", "Em Desenvolvimento","Em homologação","Em produção"], "budget":["Business", "Outros"], "resp":["Ana Carolina Botelho", "Bianca Oliveira", "Bruna Mendes", "Caio Castro", "Erbertt Santos", "Edson Freitas", "Felipe Rodrigues", "Ilma Oliveira", "Joao Gabriel Silva", "Lucinda Violante", "Marcela Pelodan Santos", "Sueli Resende", "Suzy Nascimento", "Rafael Araujo"]}\r\n'</Melhoria>
+		<Projeto>'{"tipo":"Projeto", "infos":"projeto", "area":["BI", "Financeiro","Fiscal","Comex","Nova Folha","Suprimentos","HR","HRWEB","Ponto"], "status":["Aguardando análise", "Em análise", "Em Desenvolvimento","Em homologação","Em produção"], "budget":["Business", "Outros"], "resp":["Ana Carolina Botelho", "Bianca Oliveira", "Bruna Mendes", "Caio Castro", "Erbertt Santos", "Edson Freitas", "Felipe Rodrigues", "Ilma Oliveira", "Joao Gabriel Silva", "Lucinda Violante", "Marcela Pelodan Santos", "Sueli Resende", "Suzy Nascimento", "Rafael Araujo"]}\r\n'</Projeto>
+	</OpCore>
+	<OpCore type="Complexidade">
+		<CausaRaiz>'{"tipo":"Causa Raiz", "infos":"complexidade", "esforco":[["Acima de 60HH (1 meses de 1 pessoa)","1"],["De 60HH até 120HH (2 meses de 1 pessoa)","3"],["Acima de 120HH","5"]], "difTec":[["Alta","5"],["Média","3"],["Baixa","1"]]}\r\n'</CausaRaiz>
+		<Melhoria>'{"tipo":"Melhoria", "infos":"complexidade", "esforco":[["Acima de 60HH (1 meses de 1 pessoa)","1"],["De 60HH até 120HH (2 meses de 1 pessoa)","3"],["Acima de 120HH","5"]], "conf": [["Não há fornecedores","1"],["Alta confiabilidade","3"],["Baixa confiabilidade","5"]], "hab":[["Não serão utilizados profissionais internos","1"],["Possuem as habilidades necessárias","3"],["Não possuem as habilidades necessárias","5"]], "numProfs": [["Até 3 pessoas","1"],["De 3 até 8 pessoas","3"],["Acima de 8 pessoas","5"]], "escop": [["Alta","5"],["Média","3"],["Baixa","1"]], "comp": [["Partes interessadas são comprometidas","1"],["Partes interessadas apresentam comprometimento mediano","3"],["Partes interessadas não são comprometidas","5"]], "dispTec":[["Alta","1"],["Média","3"],["Baixa","5"]],"difTec":[["Alta","5"],["Média","3"],["Baixa","1"]],"impact":[["Alto","5"],["Médio","3"],["Baixo","1"]]}\r\n'</Melhoria>
+		<Projeto>'{"tipo":"Projeto", "infos":"complexidade", "esforco":[["Acima de 60HH (1 meses de 1 pessoa)","1"],["De 60HH até 120HH (2 meses de 1 pessoa)","3"],["Acima de 120HH","5"]], "conf": [["Não há fornecedores","1"],["Alta confiabilidade","3"],["Baixa confiabilidade","5"]], "hab":[["Não serão utilizados profissionais internos","1"],["Possuem as habilidades necessárias","3"],["Não possuem as habilidades necessárias","5"]], "numProfs": [["Até 3 pessoas","1"],["De 3 até 8 pessoas","3"],["Acima de 8 pessoas","5"]], "escop": [["Alta","5"],["Média","3"],["Baixa","1"]], "comp": [["Partes interessadas são comprometidas","1"],["Partes interessadas apresentam comprometimento mediano","3"],["Partes interessadas não são comprometidas","5"]], "dispTec":[["Alta","1"],["Média","3"],["Baixa","5"]],"difTec":[["Alta","5"],["Média","3"],["Baixa","1"]],"impact":[["Alto","5"],["Médio","3"],["Baixo","1"]]}\r\n'</Projeto>
+	</OpCore>
+	<OpCore type="Criticidade">
+		<CausaRaiz>'{"tipo":"Causa Raiz", "infos":"criticidade","impact":[["Alto","5"],["Médio","3"],["Baixo","1"],"ativVital":[["Não tem relação","1"],["Indiretamente relacionado","3"],["Diretamente relacionado","5"]]}\r\n'</CausaRaiz>
+		<Melhoria>'{"tipo":"Melhoria", "infos":"criticidade", "ativVital":[["Não tem relação","1"],["Indiretamente relacionado","3"],["Diretamente relacionado","5"]], "numArea":[["1 diretoria","1"],["2 até 3 diretorias","3"],["Acima de 3 diretorias","5"],["Abrangência global","7"]], "relMetas":[["Não está relacionado","1"],["Diretamente relacionado","5"]], "roi":[["Negativo","1"],["0 a 15%","3"],["15 a 35%","5"],["Acima de 35%","7"]], "mustDo":[["Não é obrigatório","1"],["É obrigatório","5"]]}\r\n'</Melhoria>
+		<Projeto>'{"tipo":"Projeto>", "infos":"criticidade", "ativVital":[["Não tem relação","1"],["Indiretamente relacionado","3"],["Diretamente relacionado","5"]], "numArea":[["1 diretoria","1"],["2 até 3 diretorias","3"],["Acima de 3 diretorias","5"],["Abrangência global","7"]], "relMetas":[["Não está relacionado","1"],["Diretamente relacionado","5"]], "roi":[["Negativo","1"],["0 a 15%","3"],["15 a 35%","5"],["Acima de 35%","7"]], "mustDo":[["Não é obrigatório","1"],["É obrigatório","5"]]}\r\n'</Projeto>
+	</OpCore>
+	<PesoCore type="Complexidade">
+		<CausaRaiz>'{"tipo":"Causa Raiz", "infos":"complexidade", "esforco":"4", "difTec":"4"}\r\n'</CausaRaiz>
+		<Melhoria>'{"tipo":"Melhoria", "infos":"complexidade", "esforco":"4", "conf": "2", "hab":"1", "numProfs": "2", "escop": "2", "comp": "4", "dispTec":"2","difTec":"4","impact":"4"}\r\n'</Melhoria>
+		<Projeto>'{"tipo":"Projeto", "infos":"complexidade", "esforco":"4", "conf": "2", "hab":"1", "numProfs": "2", "escop": "2", "comp": "4", "dispTec":"2","difTec":"4","impact":"4"}\r\n'</Projeto>
+	</PesoCore>
+	<PesoCore type="Criticidade">
+		<CausaRaiz>'{"tipo":"Causa Raiz", "infos":"criticidade","impact":"4","ativVital":"4"}\r\n'</CausaRaiz>
+		<Melhoria>'{"tipo":"' + tipo + '", "infos":"criticidade", "ativVital":"4", "numArea":"2", "relMetas":"4", "roi":"4", "mustDo":"6"}\r\n'</Melhoria>
+		<Projeto>'{"tipo":"' + tipo + '", "infos":"criticidade", "ativVital":"4", "numArea":"2", "relMetas":"4", "roi":"4", "mustDo":"6"}\r\n'</Projeto>
+	</PesoCore>
+	<AllFields type="Projeto">
+	    <valores>{'ticket': 'Ticket', 'nome': 'Nome', 'responsavel': 'Analista Responsavel', 'solicitante': 'Solicitante', 'subarea': 'Sub Área', 'budget': 'Budget', 'status': 'Status', 'gerencia': 'Gerência'}</valores>
+	</AllFields>
+	<AllFields type="Complexidade">
+	    <valores>{'conf': 'Confiabilidade nos Fornecedores', 'dispTec': 'Disponibilidade de recursos tecnológicos', 'esforco': 'Esforço do Projeto', 'numProfs': 'Número de profissionais técnicos envolvidos no projeto', 'impact': 'Impacto no processo de negócio atual', 'difTec': 'Dificuldade técnica do projeto', 'hab': 'Habilidade interna dos profissionais', 'comp': 'Comprometimento das partes interessadas', 'escop': 'Tendência de variação do escopo'}</valores>
+	</AllFields>
+	<AllFields type="Criticidade">
+		<valores>{'numArea': 'Número de áreas negócio beneficiadas com o projeto', 'ativVital': 'Relacionado a alguma atividade de negócio vital', 'just': 'Justificativa', 'mustDo': 'Must Do', 'relMetas': 'Relacionado as metas atuais da diretoria', 'roi':'ROI'}</valores>
+	</AllFields>
+</data>

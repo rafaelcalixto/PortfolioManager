@@ -1,0 +1,4 @@
+{"tipo":"Melhoria", "infos":"complexidade", "esforco":"4", "conf": "2", "hab":"1", "numProfs": "2", "escop": "2", "comp": "4", "dispTec":"2","difTec":"4","impact":"4"}
+{"tipo":"Melhoria", "infos":"criticidade", "ativVital":"4", "numArea":"2", "relMetas":"4", "roi":"4", "mustDo":"6"}
+{"tipo":"Projeto", "infos":"complexidade", "esforco":"4", "conf": "2", "hab":"1", "numProfs": "2", "escop": "2", "comp": "4", "dispTec":"2","difTec":"4","impact":"4"}
+{"tipo":"Projeto", "infos":"criticidade",  "ativVital":"4", "numArea":"2", "relMetas":"4", "roi":"4", "mustDo":"6"}
